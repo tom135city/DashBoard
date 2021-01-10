@@ -276,7 +276,8 @@ namespace DashBoard
             // 
             // circularProgressBar1
             // 
-            this.circularProgressBar1.AnimationFunction = ((WinFormAnimation.AnimationFunctions.Function)(resources.GetObject("circularProgressBar1.AnimationFunction")));
+            //object v = resources.GetObject("circularProgressBar1.AnimationFunction");
+            //this.circularProgressBar1.AnimationFunction = (WinFormAnimation.AnimationFunctions.Function)v;
             this.circularProgressBar1.AnimationSpeed = 500;
             this.circularProgressBar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(64)))));
             this.circularProgressBar1.Font = new System.Drawing.Font("Bahnschrift Condensed", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

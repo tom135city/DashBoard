@@ -3,7 +3,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>DashBoard</RootNamespace>
     <AssemblyName>DashBoard</AssemblyName>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFrameworks>net5.0-windows</TargetFrameworks>
 	<UseWindowsForms>true</UseWindowsForms>
 	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <RootNamespace>DashBoard</RootNamespace>
@@ -14,7 +14,6 @@
     <PackageReference Include="Henke37.IOUtils" Version="1.1.0" />
     <PackageReference Include="Henke37.Valve.Source.ServerQuery" Version="1.1.2" />
     <PackageReference Include="WinFormAnimation" Version="1.6.0.4" />
-	<PackageReference Include="Microsoft.Windows.Compatibility" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Form1.resx">

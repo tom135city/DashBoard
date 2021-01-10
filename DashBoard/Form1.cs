@@ -12,6 +12,7 @@ using Henke37.Valve.Source.ServerQuery;
 using System.Net;
 using System.Diagnostics;
 using System.Media;
+using System.IO;
 
 namespace DashBoard
 {
@@ -64,10 +65,11 @@ namespace DashBoard
             ;
 
 
-
-            _soundplayer = new SoundPlayer("1.wav");
-            _soundplayer.PlayLooping();
-
+            if (File.Exists("1.wav"))
+            {
+                _soundplayer = new SoundPlayer("1.wav");
+                _soundplayer.PlayLooping();
+            }
 
 
 
